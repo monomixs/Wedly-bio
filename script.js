@@ -1,4 +1,9 @@
-        // --- FOLLOWER LOGIC (GLOBAL SCOPE) ---
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+
+// --- FOLLOWER LOGIC (GLOBAL SCOPE) ---
         const follower = document.getElementById('follower');
         const body = document.body;
 
